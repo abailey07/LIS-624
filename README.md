@@ -11,3 +11,7 @@ This is all new to me.  I **struggled** with using DOS for games in the 90s, so 
 * Results:
 * Verification:
 * Notes: Make sure you put spaces after markups to make sure they take effect.
+
+## Added in VM
+
+I've added something new while in the VM.  
