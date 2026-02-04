@@ -16,7 +16,7 @@ This is all new to me.  I **struggled** with using DOS for games in the 90s, so 
 
 I've added something new while in the VM.  
 
-#Update on 2-4-2026
+### Update on 2-4-2026
 
 I'm trying to remember how to do things without looking them up first.  I don't remember how to add comments on the update or how to push, so I will need to rewatch that part of the video.
 
