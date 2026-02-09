@@ -2,7 +2,7 @@
 
 ### I created this file in tilde to test and learn different aspects of Markdown.
 
-**This will be rendered in bold.**
+This will be rendered in bold.
 
 *This will be in italics.*
 
