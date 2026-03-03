@@ -18,7 +18,7 @@
 		
 	4. ` $ ` to indicate the end of a line.
 		
-	5. `-c` to give a count of line containing a given thing
+	5. `-c` to give a count of lines containing a given thing
 		
 	6. ` | ` to use the Boolean OR search (alternate matching)
 		
