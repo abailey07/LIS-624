@@ -6,16 +6,27 @@
 
 **Steps:** I followed the directions in the lecture and in our readings.
 	1. I practiced using `grep` with the given file operating-systems.csv.
+	
 	2. We explored several tack options to help our searching, including:
+	
 		1. `-i` to ignore case
+		
 		2. `-v` to search for lines that do not match
+		
 		3. ` ^ ` to indicate the start of a line (called regular expression or regex)
+		
 		4. ` $ ` to indicate the end of a line.
+		
 		5. `-c` to give a count of line containing a given thing
+		
 		6. ` | ` to use the Boolean OR search (alternate matching)
+		
 		7. `-w` to look for a whole word
+		
 		8. `-A NUM` and `-B NUM` to include a specificed number (NUM) of lines after or before the matching line
+		
 	3. I downloaded a search from Web of Science about music theory.  I downloaded a .bib of a thousand hits and uploaded the savedrecs.bib file to my VM.
+	
 	4. I explored this file using `grep` and several tack options.  I also explored how to use ` | ` to pipe outputs into the commands `sort` and `uniq`.
 		
 
