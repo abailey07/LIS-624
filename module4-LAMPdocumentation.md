@@ -83,13 +83,14 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
         1. `sudo tilde index.php`
     2. Insert the following HTML and PHP code for the browser and OS detector:
     ```
-    <!DOCTYPE html><html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browser Detector</title>
-</head>
-<body>
+    </head>
+    <body>
     <h1>Browser & OS Detection</h1>
     <p>You are using the following browser to view this site:</p>
     <?php
