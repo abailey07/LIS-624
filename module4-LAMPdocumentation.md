@@ -93,10 +93,8 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
 <body>
     <h1>Browser & OS Detection</h1>
     <p>You are using the following browser to view this site:</p>
-
     <?php
     $user_agent = $_SERVER['HTTP_USER_AGENT'];
-
     // Browser Detection
     if (stripos($user_agent, 'Edg') !== false || stripos($user_agent, 'Edge') !== false) {
         $browser = 'Microsoft Edge';
@@ -115,7 +113,6 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
     } else {
         $browser = 'Unknown Browser';
     }
-
     // OS Detection
     if (stripos($user_agent, 'Windows') !== false) {
         $os = 'Windows';
@@ -130,11 +127,9 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
     } else {
         $os = 'Unknown OS';
     }
-
     // Output Result
     echo "<p>Your browser is <strong>$browser</strong> and your operating system is <strong>$os</strong>.</p>";
     ?>
-
 </body>
 </html>
 ```
