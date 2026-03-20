@@ -130,9 +130,9 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
     // Output Result
     echo "<p>Your browser is <strong>$browser</strong> and your operating system is <strong>$os</strong>.</p>";
     ?>
-</body>
-</html>
-```
+    </body>
+    </html>
+    ```
 
 6. Navigate to VM [external IP](http://34.68.187.184) to confirm that the new file `index.php` is working.
 
