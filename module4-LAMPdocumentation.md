@@ -35,7 +35,7 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
             2. Visually confirmed Apache was running
         3. Confirmation in Chrome
             1. Navigated to VM external IP : (http://34.68.187.184)  
-            2. Same confirmation that Apache was running.  **Note that more installations and configurations have occured since this point.  The original confirmation that was viewed is no longer visible.**
+            2. Same confirmation that Apache was running.  **Note that more installations and configurations have occured since this point and this is no longer the default page to be viewed.**
 4. Create a simple web page
     1. Document root of the server is `/var/www/html`.  This was given in the default `index.html` file that we saw when navigated to the local host previously.  Using Tilde, I replaced the default file `index.html` saved as `index.original.html` and filled it with the given text from the course textbook.  Save and close.
     2. Confirmed Apache was running with new `index.html` by navigating to server's IP address again.
