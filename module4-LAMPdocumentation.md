@@ -41,7 +41,7 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
     2. Confirmed Apache was running with new `index.html` by navigating to server's IP address again.
 
 
-### Installation and configuration of PHP [PHP Installation Notes](https://github.com/abailey07/LIS-624/blob/main/php-install.md)
+### Installation and configuration of PHP : [PHP Installation Notes](https://github.com/abailey07/LIS-624/blob/main/php-install.md)
 
 1. Update/upgrade Linux system and clean up unneeded packages.
     1. `sudo apt update`
