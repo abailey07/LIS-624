@@ -10,7 +10,7 @@ The underlying functionality of an OPAC is done through relational databases.  A
 
 ## Setup and Construction OPAC and Cataloging Modules
 
-Below are the step taken to setup and construct a relational database in MySQL, an OPAC on my LAMP stack, and a cataloging module that will insert information into the database through a webpage.  In the portion where we worked with a relational database, some that process was practice for learning MySQL syntax for creating tables, and entering and manipulating data.  This practice is not part of building the OPAC.  This practice can be found in detail in our class (textbook)[https://cseanburns.github.io/systems-librarianship/5a-introduction-to-relational-databases.html].  The intial set up of this database was done as part of Module 4.  I am including those steps again here to give a complete picture of this specific work.
+Below are the step taken to setup and construct a relational database in MySQL, an OPAC on my LAMP stack, and a cataloging module that will insert information into the database through a webpage.  In the portion where we worked with a relational database, some that process was practice for learning MySQL syntax for creating tables, and entering and manipulating data.  This practice is not part of building the OPAC.  This practice can be found in detail in our class [textbook](https://cseanburns.github.io/systems-librarianship/5a-introduction-to-relational-databases.html).  The intial set up of this database was done as part of Module 4.  I am including those steps again here to give a complete picture of this specific work.
 
 ### Setting up and Constructing a Relational Database for OPAC
 
@@ -20,7 +20,7 @@ Below are the step taken to setup and construct a relational database in MySQL, 
     3. `mysql> grant all privileges on opacdb.* to 'opacuser'@'localhost';`
     4. We can double check what permissions are granted using `mysql> show grants for 'opacuser'@'localhost';`
 2. Create table "Books" and enter data.
-    1. Log into MySQL user opacuser with password.  This was established in (Module 4)[https://github.com/abailey07/LIS-624/blob/main/module4-LAMPdocumentation.md].
+    1. Log into MySQL user opacuser with password.  This was established in [Module 4](https://github.com/abailey07/LIS-624/blob/main/module4-LAMPdocumentation.md).
     2. Create a table for books: 
          ```
         mysql> create table books (
