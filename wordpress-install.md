@@ -42,18 +42,18 @@
 		2. `( 'DB_USER', 'username_here' )` to `( 'DB_USER', 'wordpress' )`
 		3. `( 'DB_PASSWORD', 'password_here' )` to `( 'DB_PASSWORD', 'XXXXXXXXXX' )` (whatever password was set
 	5. At the bottom of the file, add the following to give Wordpress write file permissions: `define('FS_METHOD','direct');`.  This may change for other installs depending on ownership and security.
-5. I made the choice to change the name of the Wordpress directory so that my URL would be different.  I chose to name it "Library of Alexandria" using the following: `sudo mv /var/www/html/wordpress /var/www/html/library-of-alexandria`.
+5. I made the choice to change the name of the Wordpress directory so that my URL would be different.  I chose to name it "Valley Archive" using the following: `sudo mv /var/www/html/wordpress /var/www/html/valley-archive`.
 6. Perform the installation in a browser window.
-	1. Navigate to http://34.68.187.184/library-of-alexandria
+	1. Navigate to http://34.45.197.17/valley-archive
 	2. Follow the installation instructions on the screen.
-		1. Library name: The Library of Alexandria
+		1. Library name: Valley Archive of the Crimson Soul
 		2. Create username and password.
 		3. We set our site to be discouraged from being crawled.
 		4. Login was successful!
 
 	
 **Results:**
-I successfully met the goals of this week's learning.  My VM instance had to be suspended and restarted so that the instance could load.  There was also significant lag on 4/4, which I haven't experienced before from the VM.  This time it did not give me a new External IP.  I did run into the issue of `unzip` needing to be installed before that was discovered in the video.  A simple Google search helped me accomplish that.
+I successfully met the goals of this week's learning.  My VM instance had to be suspended and restarted twice so that the instance could load.  There was also significant lag on 4/4, which I haven't experienced before from the VM.  I did get a new external IP as a result of the stopping and restarting.  I did run into the issue of `unzip` needing to be installed before that was discovered in the video.  A simple Google search helped me accomplish that.  There was something wrong with the permissions that would allow me to install new templates in Wordpress.  This is an ongoing issue that is still being worked out in Teams.  There are also errors in uploading pictures and other media.
 
 **Verification:**
 I was able to log into Wordpress and do a few small changes to the site.  There seems to be a lot to learn about using a Wordpress site! 
