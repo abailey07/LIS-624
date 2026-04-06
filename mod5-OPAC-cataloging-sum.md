@@ -280,7 +280,7 @@ Below are the step taken to setup and construct a relational database in MySQL, 
     1. Grant group ownership to the Apache server user: `sudo chown :www-data /var/www/html`.
     2. Modify the SetGID bit for `/var/www/html` so that anything added to this directory in the future will inherit the same read/write permissions.
         1. `sudo find /var/www/html -type d -exec chmod g+s {} +`
-8. We can confirm that `htpasswd` is working by using `curl -I http://34.68.187.184/cataloging/index.html`.  If a 401 Unauthorized error is returned, we know that it is working.
+8. We can confirm that `htpasswd` is working by using `curl -I http://34.45.197.17/cataloging/index.html`.  If a 401 Unauthorized error is returned, we know that it is working.
         
 ### Verification of Work and Challenges Overcome
 
