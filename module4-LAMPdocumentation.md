@@ -34,7 +34,7 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
             1. Open and navigate to local host : `elinks localhost` or `elinks 127.0.0.1`
             2. Visually confirmed Apache was running
         3. Confirmation in Chrome
-            1. Navigated to VM external IP : (http://34.68.187.184)  
+            1. Navigated to VM external IP : (http://34.45.197.17)  
             2. Same confirmation that Apache was running.  **Note that more installations and configurations have occured since this point and this is no longer the default page to be viewed.**
 4. Create a simple web page
     1. Document root of the server is `/var/www/html`.  This was given in the default `index.html` file that we saw when navigated to the local host previously.  Using Tilde, I replaced the default file `index.html` saved as `index.original.html` and filled it with the given text from the course textbook.  Save and close.
@@ -68,7 +68,7 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
         ?>
         ```
     2. Save and close.
-    3. Using a browser, navigate to the server's public IP and the new PHP file to confirm PHP is working: http://34.68.187.184/info.php
+    3. Using a browser, navigate to the server's public IP and the new PHP file to confirm PHP is working: http://34.45.197.17/info.php
     4. Remove `info.php` as it is a security risk for it to be public : `sudo rm /var/www/html/info.php`
 4. Configure the server to load PHP first followed by HTML.  The order of these two are critical to make sure that future web pages load correctly.
     1. Find dir.conf file that controls the file load order for the server.  For us, this is located in /etc/apache2/mods-available.
@@ -134,7 +134,7 @@ Below are the installation steps for the Apache, PHP, and MySQL components.  Mor
     </html>
     ```
 
-6. Navigate to VM [external IP](http://34.68.187.184) to confirm that the new file `index.php` is working.
+6. Navigate to VM [external IP](http://34.45.197.17) to confirm that the new file `index.php` is working.
 
 
 
